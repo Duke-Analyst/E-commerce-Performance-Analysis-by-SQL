@@ -21,13 +21,15 @@ The manager wants to statisticize the results of the Website Performance, to ans
 
 # Solution
 To solve this case, I will use SQL (Bigquery) to extract and wrangle data following every request
+
 The dataset is built by Array, so I will use UNNEST in every query
+
 These are the functions used:
 
-*Aggregate function: SUM, MIN, MAX
-*Date function: format_date
-*Numerical function: ROUND
-*JOIN: LEFT, INNER
-*Common table expression
-*Window function
+* Aggregate function: SUM, MIN, MAX
+* Date function: format_date
+* Numerical function: ROUND
+* JOIN: LEFT, FULL
+* Common table expression
+* Window function
 
