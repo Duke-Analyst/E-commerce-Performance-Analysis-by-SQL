@@ -67,10 +67,44 @@ To find revenue by traffic source in June 2017, I calculate revenue by both week
 **The result:**
 ![image](https://github.com/user-attachments/assets/84b01893-fa15-42ed-9aa5-4158da6c4529)
 
+## Request 04: How many the average number of pageviews by purchaser type (purchasers vs non-purchasers) in June, and July 2017 are there?
+To calculate the average pageviews for purchasers versus non-purchasers in June and July 2017, I define two separate datasets. 
+* The first calculates the total pageviews and unique purchaser count for users with transactions
+![image](https://github.com/user-attachments/assets/2365a281-1948-483d-96c6-7c231216a512)
+
+* The second calculates total pageviews and unique non-purchaser count for users without transactions. 
+![image](https://github.com/user-attachments/assets/157d686b-8984-4f72-8a7a-e38eb6b4fd91)
+
+* Finally, I calculate the average pageviews by dividing the pageviews by the count for each group and join the two datasets by month to compare both groups side-by-side.
+![image](https://github.com/user-attachments/assets/45ae1435-b5fd-4669-af24-c86d8b9954a8)
+
+**The result:**
+![image](https://github.com/user-attachments/assets/ba58e1fb-6181-4712-85aa-019b156594ca)
+
+
+## Request 05: How many the average number of transactions per user that made purchases in July 2017 are there?
+To find the average number of transactions per purchasing user in July 2017, I calculate the total transactions and the distinct count of users with at least one transaction. Dividing the total transactions by the number of unique purchasing users gives the average transactions per purchaser. The result is grouped by month to ensure data accuracy for July.
+![image](https://github.com/user-attachments/assets/25838d09-cd0b-47a6-9854-e5b43368014f)
+
+**The result:**
+![image](https://github.com/user-attachments/assets/20309499-22f6-430e-9770-e3b22707a8d4)
 
 
 
+## Request 06: How much the average amount of money spent per session is there? (Only include purchaser data in July 2017)
+To determine the average amount spent per session in July 2017 for purchasers, I calculate the total revenue from purchases and divide it by the total number of visits in which transactions occurred.
 
+After calculating the average revenue per visit, I round the result to two decimal places and group by month, providing an overview of average spending per session for July.
+![image](https://github.com/user-attachments/assets/5957d1e8-9156-4774-b03a-8f39461df268)
+
+**The result:**
+![image](https://github.com/user-attachments/assets/65012f7a-3467-4e94-9568-4d7c9dd4b4e4)
+
+
+**Request 07: Which other products were purchased by customers who purchased the product "YouTube Men's Vintage Henley" in July 2017?**
+To find other products purchased by customers who bought the "YouTube Men's Vintage Henley" in July 2017, I first identify all users who purchased this specific item. Then, I filter for additional products bought by these users, excluding the "YouTube Men's Vintage Henley" itself. By summing the quantities of each additional product and grouping by product name, I can display the list of complementary purchases along with the quantities ordered, ordered by quantity in descending order.
+
+* Request 08: Provide cohort map from product view to add to cart to purchase in Jan, Feb, and March 2017. For example, 100% product view then 40% add_to_cart, and 10% purchase.
 
 
 
