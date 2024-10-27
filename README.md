@@ -33,4 +33,22 @@ These are the functions used:
 * LEFT JOIN, FULL JOIN
 * Common table expression (CTE)
 
+**Request 01: How many total visits, pageview, and transactions for Jan, Feb, and March 2017 are there? (order by month)**
+To calculate the total visits, pageviews, and transactions for January, February, and March of 2017, I first format the date to show only the year and month. Then, I filter for dates between January 1st and March 31st by specifying _table_suffix values. Next, I sum the totals for visits, pageviews, and transactions, grouping the results by month. Finally, I order the output by month to display the data sequentially from January to March.
+
+[<img width="424" alt="q1" src="https://github.com/user-attachments/assets/c9fb1fe8-ae85-469b-beb3-46c84ad29cfb">
+](url)
+
+<img width="478" alt="q11" src="https://github.com/user-attachments/assets/94fc60dd-7933-4268-84ec-5c55b2b63b1b">
+
+
+
+
+
+
+
+
+
+
+
 
