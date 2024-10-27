@@ -64,6 +64,7 @@ To find revenue by traffic source in June 2017, I calculate revenue by both week
 
 ![image](https://github.com/user-attachments/assets/a63ae9fe-9a07-45ab-85a8-cc38cf526e81)
 
+
 **The result:**
 ![image](https://github.com/user-attachments/assets/84b01893-fa15-42ed-9aa5-4158da6c4529)
 
@@ -78,15 +79,20 @@ To calculate the average pageviews for purchasers versus non-purchasers in June 
 * Finally, I calculate the average pageviews by dividing the pageviews by the count for each group and join the two datasets by month to compare both groups side-by-side.
 ![image](https://github.com/user-attachments/assets/45ae1435-b5fd-4669-af24-c86d8b9954a8)
 
+
+
 **The result:**
 ![image](https://github.com/user-attachments/assets/ba58e1fb-6181-4712-85aa-019b156594ca)
 
 
 ## Request 05: How many the average number of transactions per user that made purchases in July 2017 are there?
 * To find the average number of transactions per purchasing user in July 2017, I calculate the total transactions and the distinct count of users with at least one transaction. Dividing the total transactions by the number of unique purchasing users gives the average transactions per purchaser. The result is grouped by month to ensure data accuracy for July.
+  
 ![image](https://github.com/user-attachments/assets/25838d09-cd0b-47a6-9854-e5b43368014f)
 
+
 **The result:**
+
 ![image](https://github.com/user-attachments/assets/20309499-22f6-430e-9770-e3b22707a8d4)
 
 
@@ -95,21 +101,28 @@ To calculate the average pageviews for purchasers versus non-purchasers in June 
 * To determine the average amount spent per session in July 2017 for purchasers, I calculate the total revenue from purchases and divide it by the total number of visits in which transactions occurred.
 
 * After calculating the average revenue per visit, I round the result to two decimal places and group by month, providing an overview of average spending per session for July.
+  
 ![image](https://github.com/user-attachments/assets/5957d1e8-9156-4774-b03a-8f39461df268)
 
+
 **The result:**
+
 ![image](https://github.com/user-attachments/assets/65012f7a-3467-4e94-9568-4d7c9dd4b4e4)
 
 
 **Request 07: Which other products were purchased by customers who purchased the product "YouTube Men's Vintage Henley" in July 2017?**
 * To find other products purchased by customers who bought the "YouTube Men's Vintage Henley" in July 2017, I start by creating a list of unique user IDs (fullVisitorId) for those who purchased this specific item.
+  
 ![image](https://github.com/user-attachments/assets/39ae2fd1-d770-47ad-a4f2-c5f531aa45dc)
 
 * Next, I join this list with session data for July 2017 to identify additional products purchased by these same users, excluding the "YouTube Men's Vintage Henley" itself. 
 * Finally, I calculate the total quantity of each additional product purchased, group the results by product name, and order by quantity in descending order to show the most frequently purchased complementary items.
+  
 ![image](https://github.com/user-attachments/assets/27866057-95c7-4756-85d1-16abca7099a8)
 
+
 **The result:**
+
 ![image](https://github.com/user-attachments/assets/eacd63a7-dabf-4af1-baec-349ceb031ca9)
 
 
