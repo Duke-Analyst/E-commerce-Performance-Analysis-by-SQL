@@ -53,13 +53,15 @@ To determine the bounce rate by traffic source for July 2017, I start by summing
 ![image](https://github.com/user-attachments/assets/e2ad2cbf-9d15-4101-a3cb-ef37f2a47a06)
 
 ## Request 03: How much revenue by traffic source by week, by month in June 2017 is there?
-To find revenue by traffic source in June 2017, I calculate revenue by both week and month. For monthly revenue, I aggregate product revenue by traffic source and format the date by month. 
+To find revenue by traffic source in June 2017, I calculate revenue by both week and month. 
+* For monthly revenue, I aggregate product revenue by traffic source and format the date by month. 
 ![image](https://github.com/user-attachments/assets/7e8de154-8522-4070-b04e-957ab044b062)
 
-For weekly revenue, I similarly aggregate product revenue by traffic source and format the date by week. 
+* For weekly revenue, I similarly aggregate product revenue by traffic source and format the date by week. 
 ![image](https://github.com/user-attachments/assets/db3e1513-7384-437c-a07b-bfd56445c118)
 
-After defining these two datasets, I combine them using UNION ALL and order the output by revenue in descending order to show the top-earning sources.
+* After defining these two datasets, I combine them using UNION ALL and order the output by revenue in descending order to show the top-earning sources.
+
 ![image](https://github.com/user-attachments/assets/a63ae9fe-9a07-45ab-85a8-cc38cf526e81)
 
 **The result:**
