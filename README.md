@@ -1,8 +1,8 @@
 # Overview
-This project aims to provide business reports in table format and statisticize the results of an E-commerce Website in a period
+This project aims to provide and statisticize the Website Performance in a period
 
 # Situation
-The manager wants to statisticize the results of the Website Performance, to answer a few questions about total visits, revenue, and the average money that customers spend,...
+The manager wants to statisticize the results of the Website Performance, to answer a few questions about total visits, revenue, and the average money that customers spend, ...etc...
 
 # The requests about the Website Performance:
 * Request 01: How many total visits, pageview, and transactions for Jan, Feb, and March 2017 are there?
@@ -41,6 +41,7 @@ To calculate the total visits, pageviews, and transactions for January, February
 
 The result:
 ![image](https://github.com/user-attachments/assets/a51914d9-5466-4ee9-a5ef-e7e8d89f790b)
+
 
 
 ## Request 02: What is the bounce rate per traffic source in July 2017? 
