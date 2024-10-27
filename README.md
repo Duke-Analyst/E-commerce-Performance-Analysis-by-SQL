@@ -102,10 +102,24 @@ After calculating the average revenue per visit, I round the result to two decim
 
 
 **Request 07: Which other products were purchased by customers who purchased the product "YouTube Men's Vintage Henley" in July 2017?**
-To find other products purchased by customers who bought the "YouTube Men's Vintage Henley" in July 2017, I first identify all users who purchased this specific item. Then, I filter for additional products bought by these users, excluding the "YouTube Men's Vintage Henley" itself. By summing the quantities of each additional product and grouping by product name, I can display the list of complementary purchases along with the quantities ordered, ordered by quantity in descending order.
+To find other products purchased by customers who bought the "YouTube Men's Vintage Henley" in July 2017, I start by creating a list of unique user IDs (fullVisitorId) for those who purchased this specific item.
+![image](https://github.com/user-attachments/assets/39ae2fd1-d770-47ad-a4f2-c5f531aa45dc)
 
-* Request 08: Provide cohort map from product view to add to cart to purchase in Jan, Feb, and March 2017. For example, 100% product view then 40% add_to_cart, and 10% purchase.
+Next, I join this list with session data for July 2017 to identify additional products purchased by these same users, excluding the "YouTube Men's Vintage Henley" itself. 
+Finally, I calculate the total quantity of each additional product purchased, group the results by product name, and order by quantity in descending order to show the most frequently purchased complementary items.
+![image](https://github.com/user-attachments/assets/27866057-95c7-4756-85d1-16abca7099a8)
+
+**The result:**
+![image](https://github.com/user-attachments/assets/eacd63a7-dabf-4af1-baec-349ceb031ca9)
+
+## Request 08: Provide cohort map from product view to add to cart to purchase in Jan, Feb, and March 2017. For example, 100% product view then 40% add_to_cart, and 10% purchase.
+To build a cohort map tracking user actions from product view to add-to-cart to purchase from January to March 2017, I calculate the counts of product views, add-to-cart actions, and purchases by month. 
+![image](https://github.com/user-attachments/assets/5ebc1d00-5722-479b-945f-20b71e92932c)
 
 
+Using this data, I calculate the add-to-cart rate as the ratio of add-to-cart actions to views, and the purchase rate as the ratio of purchases to views. Grouping by month allows for a clear monthly cohort comparison, helping to understand conversion rates at each stage in the user journey.
+![image](https://github.com/user-attachments/assets/c971b9b6-5207-4c67-9c32-a286081e5642)
 
+**The result:**
+![image](https://github.com/user-attachments/assets/9259cca6-ab32-4015-9405-579347f50421)
 
