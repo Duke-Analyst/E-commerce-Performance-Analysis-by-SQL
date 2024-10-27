@@ -2,10 +2,13 @@
 This project aims to provide business reports in table format and statisticize the results of an E-commerce Website in a period of time
 
 # Dataset
-* The dataset includes a lot of columns, and the columns below are useful for Analytics:
+* The dataset includes these columns:
 <img width="1235" alt="1" src="https://github.com/user-attachments/assets/ddcd67af-ea2e-47c9-8702-22b352824bc6">
+
 * The dataset is built by Array Data Structure, so I will use UNNEST in every query
 
+
+  
 The project consists of 8 queries, answering 8 requests about the Website Performance:
 * Request 01: How many total visits, pageview, and transactions for Jan, Feb, and March 2017 are there? (order by month)
 * Request 02: What is the bounce rate per traffic source in July 2017 (Bounce_rate = num_bounce/total_visit) (order by total_visit DESC)
