@@ -29,7 +29,8 @@ These are the functions used:
 * Aggregate function: SUM, MIN, MAX
 * Date function: format_date
 * Numerical function: ROUND
-* JOIN: LEFT, FULL
-* Common table expression
-* Window function
+* UNION ALL 
+* LEFT JOIN, FULL JOIN
+* Common table expression (CTE)
+
 
