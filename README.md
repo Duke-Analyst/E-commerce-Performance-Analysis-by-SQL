@@ -42,9 +42,8 @@ These are the functions used:
 **The result:**
 ![image](https://github.com/user-attachments/assets/a51914d9-5466-4ee9-a5ef-e7e8d89f790b) 
 
+---
 
-abc\\
-abc
 ## Request 02: What is the bounce rate per traffic source in July 2017? 
 
 * To determine the bounce rate by traffic source for July 2017, I start by summing the total visits and bounces per traffic source. Then, I calculate the bounce rate as the ratio of total bounces to total visits, expressed as a percentage. The results are grouped by traffic source and ordered by total visits in descending order to prioritize traffic sources with the highest visitor counts.
