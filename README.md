@@ -40,7 +40,7 @@ These are the functions used:
 ![image](https://github.com/user-attachments/assets/49ba0cbe-54c6-4b24-8e3f-f2a76c08abe5)
 
 **The result:**
-![image](https://github.com/user-attachments/assets/a51914d9-5466-4ee9-a5ef-e7e8d89f790b) \\
+![image](https://github.com/user-attachments/assets/a51914d9-5466-4ee9-a5ef-e7e8d89f790b) \
 
 
 
