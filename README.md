@@ -17,7 +17,8 @@ The manager wants to statisticize the results of the Website Performance, to ans
 # Dataset
 * The dataset is built by Array Data Structure
 * The dataset includes these columns:
-https://github.com/Duke-Analyst/Website-Performance-Analysis-by-SQL/issues/1#issue-2616631845
+![image](https://github.com/user-attachments/assets/c2b4896f-9d30-400d-b36b-2634b0d4bd84)
+
 
 # Solution
 To solve this case, I will use SQL (Bigquery) to extract and wrangle data following every request
