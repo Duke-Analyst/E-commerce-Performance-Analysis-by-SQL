@@ -1,0 +1,4 @@
+*.sql linguist-language=SQL
+*.pbix linguist-language=PowerBI
+*.ipynb linguist-language=Python
+*.py linguist-language=Python
